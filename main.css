@@ -1,0 +1,47 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  background: url(main_img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  font-family: 'VT323', monospace;
+}
+
+#nav_main{
+  margin-right: auto;
+  margin-left: 200px;
+  border-style: dashed;
+  border-color: inherit;
+
+}
+
+#left_nav{
+  margin-right: 200px;
+}
+/* Style the links inside the navigation bar */
+nav a {
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  color: #027E3A;
+}
